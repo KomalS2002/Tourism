@@ -1,0 +1,65 @@
+.maindiv{
+    display: flex;
+    background: #000;
+    background-image: url(../../../public/mainbg.jpg);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    /* backdrop-filter: blur(100px); */
+}
+.leftdiv{
+    width: 60%;
+    margin: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    align-items: center;
+}
+.rightdiv{
+    width: 30%;
+    margin: 150px;
+    height: 600px;
+    border: 4px solid;
+    border-radius: 10px;
+    color: rgb(12, 55, 124);
+    margin-right: 80px;
+    margin-left: 0;
+}
+.rating{
+    margin-bottom: 10px;
+}
+.picture{
+    width: 700px;
+    height: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 5px rgba(133, 133, 149, 0.5);
+}
+.desc{
+    font-size: 22px;
+    line-height: 30px;
+    width: 600px;
+    justify-content: center;
+}
+.maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.subbutton{
+background:none;
+color: #fff;
+border-width: 3x;
+border-radius: 10px;
+width: 80px;
+height: 40px;
+border-color: #fff;
+font-weight: bold;
+font-size: 20px;
+margin-top: 40px;
+border-style: solid;
+}
