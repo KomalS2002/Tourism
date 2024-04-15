@@ -10,7 +10,7 @@ const Home = () => {
   ));
   return (
     
-    <div className='main' >
+    <div className='mainbox' >
       <div className='menu'>
       <Dropmenu/>
       <Dropmenu/>
